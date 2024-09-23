@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  :root{
+    --bg-color: #1A1A1A;
+    --second-bg-color: grey;
+    --text-color: #E0E0E0;
+    --main-color: #FF6F61;
+  }
+  
+  
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  body{
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+
+  /* BreakPoints for adding more responsivenes to my website */
+@media(max-width: 1200px){
+  html{
+    font-size: 55%;
+  }
+}
